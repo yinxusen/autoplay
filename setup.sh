@@ -10,12 +10,12 @@ make dumb
 cd ../..
 
 # Install NLTK and Word2Vec (Requires pip)
-sudo apt-get -y install pip
-sudo pip install nltk
+# sudo apt-get -y install pip
+pip install nltk
 
 # Install Word2vec
-sudo apt-get -y install cython
-sudo pip install word2vec
+pip install cython
+pip install word2vec
 
 # Install Scholar
 git clone https://github.com/danielricks/scholar.git
